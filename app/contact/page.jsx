@@ -5,21 +5,21 @@ import Link from "next/link";
 
 const contactCards = [
   {
-    href: "tel:+919999999999",
+    href: "tel:+919211816999",
     icon: "📞",
     label: "Phone",
-    value: "+91 99999 99999",
-    sub: "Mon–Sat, 9am – 7pm",
+    value: "+91 92118 16999",
+    sub: "Mon–Fri, 10am – 7pm",
   },
   {
-    href: "mailto:hello@royalfinity.com",
+    href: "mailto:info@royalfinity.com",
     icon: "✉️",
     label: "Email",
-    value: "hello@royalfinity.com",
+    value: "info@royalfinityacademy.com",
     sub: "We reply within 3–4 hours",
   },
   {
-    href: "https://wa.me/919999999999",
+    href: "https://wa.me/919211816999",
     icon: "💬",
     label: "WhatsApp",
     value: "Chat with an Advisor",
@@ -29,15 +29,14 @@ const contactCards = [
     href: null,
     icon: "📍",
     label: "Address",
-    value: "Royalfinity Academy, Ahmedabad",
-    sub: "Gujarat, India — Campus details on inquiry",
+    value: "Royalfinity Academy, Faridabad",
+    sub: "Haryana, India — Campus details on inquiry",
   },
 ];
 
 const hours = [
-  { day: "Monday – Friday", time: "9:00 AM – 7:00 PM" },
-  { day: "Saturday",        time: "9:00 AM – 5:00 PM" },
-  { day: "Sunday",          time: "Closed"             },
+  { day: "Monday – Friday", time: "10:00 AM – 7:00 PM" },
+  { day: "Saturday | Sunday",        time: "Closed" },
 ];
 
 const quickCourses = [
@@ -172,7 +171,7 @@ export default function ContactPage() {
                 <div className="ct-field">
                   <label className="ct-label">Phone Number *</label>
                   <input name="phone" type="tel" className="ct-input"
-                    placeholder="+91 98765 43210" value={form.phone} onChange={handleChange} />
+                    placeholder="+91 92118 16999" value={form.phone} onChange={handleChange} />
                 </div>
 
                 <div className="ct-field">
@@ -225,7 +224,7 @@ export default function ContactPage() {
 
           <div className="ct-map-frame ct-reveal ct-d1">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235013.56823893063!2d72.41493394063555!3d23.020158048694207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1713000000000"
+              src="https://www.google.com/maps?q=5A/81,+Block+A,+New+Industrial+Twp+5,+New+Industrial+Township,+Faridabad,+Haryana+121001&output=embed"
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
@@ -233,7 +232,7 @@ export default function ContactPage() {
             />
             <div className="ct-map-overlay">
               <div className="ct-map-overlay-name">Royalfinity Academy</div>
-              <div className="ct-map-overlay-addr">Ahmedabad, Gujarat, India</div>
+              <div className="ct-map-overlay-addr">Faridabad, Haryana, India</div>
             </div>
           </div>
         </div>
@@ -267,7 +266,7 @@ export default function ContactPage() {
           </div>
 
           <a
-            href="https://wa.me/919999999999"
+            href="https://wa.me/919211816999"
             target="_blank"
             rel="noopener noreferrer"
             className="ct-quick-cta"

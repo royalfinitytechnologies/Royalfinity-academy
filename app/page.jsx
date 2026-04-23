@@ -181,7 +181,7 @@ export default function Home() {
                 <span className="tool-tag">JavaScript</span>
                 <span className="tool-tag">ChatGPT</span>
               </div>
-              <Link href="/php-stack" className="course-cta">Explore Program</Link>
+              <Link href="/courses/php-stack" className="course-cta">Explore Program</Link>
             </div>
             <div className="course-card reveal reveal-delay-2">
               <div className="course-num">02</div>
@@ -199,7 +199,7 @@ export default function Home() {
                 <span className="tool-tag">REST APIs</span>
                 <span className="tool-tag">GitHub</span>
               </div>
-              <Link href="/mern-stack" className="course-cta">Explore Program</Link>
+              <Link href="/courses/mern-stack" className="course-cta">Explore Program</Link>
             </div>
             <div className="course-card reveal reveal-delay-3">
               <div className="course-num">03</div>
@@ -217,7 +217,7 @@ export default function Home() {
                 <span className="tool-tag">ChatGPT</span>
                 <span className="tool-tag">Adobe</span>
               </div>
-              <Link href="/digital-marketing" className="course-cta">Explore Program</Link>
+              <Link href="/courses/digital-marketing" className="course-cta">Explore Program</Link>
             </div>
             <div className="course-card reveal reveal-delay-4">
               <div className="course-num">04</div>
@@ -235,7 +235,7 @@ export default function Home() {
                 <span className="tool-tag">ChatGPT</span>
                 <span className="tool-tag">Looker</span>
               </div>
-              <Link href="/performance-marketing" className="course-cta">Explore Program</Link>
+              <Link href="/courses/performance-marketing" className="course-cta">Explore Program</Link>
             </div>
           </div>
         </section>
@@ -359,7 +359,7 @@ export default function Home() {
         </section>
 
         {/* ===== TESTIMONIALS ===== */}
-        <section id="testimonials">
+        {/* <section id="testimonials">
           <div className="section-label">Student Stories</div>
           <h2 className="section-title reveal">
             Real Results from<br /><em>Real Students</em>
@@ -438,7 +438,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* ===== FINAL CTA ===== */}
         <section id="cta-final">

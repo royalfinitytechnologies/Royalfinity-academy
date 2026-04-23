@@ -60,8 +60,8 @@ export default function CourseClient({ course }) {
           <p className="hero-sub">{course.heroSub}</p>
 
           <div className="hero-actions">
-            <Link href="#contact" className="btn-primary">Enroll Now</Link>
-            <Link href="#overview" className="btn-ghost">View Curriculum</Link>
+            <Link href="https://wa.me/919211816999" className="btn-primary">Enroll Now</Link>
+            <Link href="#curriculum" className="btn-ghost">View Curriculum</Link>
           </div>
 
           <div className="hero-meta">
@@ -126,10 +126,10 @@ export default function CourseClient({ course }) {
                 <div className="course-price-tag">Course Fee</div>
                 <div className="course-price">{course.price}</div>
                 <div className="course-price-sub">{course.originalPrice} Regular Price</div>
-                <Link href="#contact" className="card-enroll-btn">
+                <Link href="https://wa.me/919211816999" className="card-enroll-btn">
                   Enroll Now — Limited Seats
                 </Link>
-                <Link href="#contact" className="card-demo-btn">
+                <Link href="https://wa.me/919211816999?text=Hi%20Royalfinity%20Technologies,%20I%20want%20to%20book%20a%20free%20demo%20session" className="card-demo-btn">
                   Book a Free Demo Class
                 </Link>
               </div>

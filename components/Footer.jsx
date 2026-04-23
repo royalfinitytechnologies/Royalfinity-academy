@@ -32,10 +32,10 @@ export default function Footer() {
         <div className="footer-col">
           <h4>Courses</h4>
           <ul>
-            <li><Link href="/php-stack">PHP Full Stack</Link></li>
-            <li><Link href="/mern-stack">MERN Stack</Link></li>
-            <li><Link href="/digital-marketing">Digital Marketing</Link></li>
-            <li><Link href="/performance-marketing">Performance Marketing</Link></li>
+            <li><Link href="/courses/php-stack">PHP Full Stack</Link></li>
+            <li><Link href="/courses/mern-stack">MERN Stack</Link></li>
+            <li><Link href="/courses/digital-marketing">Digital Marketing</Link></li>
+            <li><Link href="/courses/performance-marketing">Performance Marketing</Link></li>
           </ul>
         </div>
 
@@ -43,10 +43,10 @@ export default function Footer() {
         <div className="footer-col">
           <h4>Academy</h4>
           <ul>
+            <li><Link href="/about">About</Link></li>
             <li><Link href="/why-us">Why Us</Link></li>
-            <li><Link href="/#workspace">Campus Tour</Link></li>
-            <li><Link href="/#testimonials">Student Stories</Link></li>
             <li><Link href="/contact">Enroll Now</Link></li>
+            <li><Link href="/contact">Contact</Link></li>
           </ul>
         </div>
 

@@ -5,7 +5,7 @@ export const coursesData = {
       heroTitle: "Become a",
       heroTitleBold: "MERN Stack",
       heroTitleEnd: "Developer",
-      heroBadge: "New Batch — 2025",
+      heroBadge: "New Batch — 2026",
       heroSub: "Master the most powerful JavaScript full-stack combination — MongoDB, Express, React and Node. Build real-world production apps, work in a real office environment, and land your developer job with Royalfinity's premium mentorship.",
       stackBadges: [
         { label: "MongoDB",    cls: "stack-php"     },
@@ -21,8 +21,8 @@ export const coursesData = {
         { num: "4.8★", label: "Avg. Rating"        },
         { num: "₹0",   label: "Premium Tools Cost" },
       ],
-      price: "₹15,999",
-      originalPrice: "₹30,000",
+      price: "₹*****",
+      originalPrice: "₹40,000",
       overviewTitle: "Everything you need to",
       overviewTitleEm: "build & deploy",
       overviewDesc: "MERN Stack is the most in-demand full-stack skill set in the modern web industry. This course takes you from JavaScript fundamentals to deploying full-stack React + Node applications — with 4 months of deep structured learning followed by 2 months of intense real-world project work, giving you a portfolio that actually gets you hired.",
@@ -77,7 +77,7 @@ export const coursesData = {
       heroTitle: "Become a",
       heroTitleBold: "PHP Full Stack",
       heroTitleEnd: "Developer",
-      heroBadge: "New Batch — 2025",
+      heroBadge: "New Batch — 2026",
       heroSub: "Master PHP, MySQL, and Laravel — the backbone of millions of websites. Learn to build complete web applications from scratch with Royalfinity's structured mentorship.",
       stackBadges: [
         { label: "PHP",        cls: "stack-php"     },
@@ -149,7 +149,7 @@ export const coursesData = {
       heroTitle: "Master",
       heroTitleBold: "Digital Marketing",
       heroTitleEnd: "& Grow Brands",
-      heroBadge: "New Batch — 2025",
+      heroBadge: "New Batch — 2026",
       heroSub: "Learn SEO, social media marketing, Google Ads, content strategy and more. Become a certified digital marketer and land high-paying roles or grow your own business with Royalfinity's practical training.",
       stackBadges: [
         { label: "SEO",          cls: "stack-php"     },
@@ -220,7 +220,7 @@ export const coursesData = {
       heroTitle: "Master",
       heroTitleBold: "Performance Marketing",
       heroTitleEnd: "& Drive ROI",
-      heroBadge: "New Batch — 2025",
+      heroBadge: "New Batch — 2026",
       heroSub: "Specialise in data-driven paid media — Meta Ads, Google Ads, conversion rate optimisation and ROI analysis. Become the marketer brands pay top rupees to hire.",
       stackBadges: [
         { label: "Meta Ads",    cls: "stack-laravel" },
