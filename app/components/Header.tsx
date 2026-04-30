@@ -42,6 +42,7 @@ const courses = [
 
 const navLinks = [
   { href: '/', label: 'Home' },
+  { href: '/about', label: 'About'},
   { href: '/why-us', label: 'Why Us' },
   { href: '/contact', label: 'Contact' },
 ]
@@ -239,6 +240,9 @@ export default function Header() {
       <div className={`rf-mobile-menu${mobileOpen ? ' open' : ''}`}>
         <Link href="/" className="rf-mobile-link" onClick={() => setMobileOpen(false)}>
           Home
+        </Link>
+        <Link href="/about" className="rf-mobile-link" onClick={() => setMobileOpen(false)}>
+          About
         </Link>
         <Link href="/why-us" className="rf-mobile-link" onClick={() => setMobileOpen(false)}>
           Why Us

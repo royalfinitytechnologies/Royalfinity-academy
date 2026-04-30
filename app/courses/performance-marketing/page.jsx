@@ -162,8 +162,8 @@ export default function PerformanceMarketingPage() {
             <div className="course-card-widget">
               <div className="course-card-top">
                 <div className="course-price-tag">Course Fee</div>
-                <div className="course-price">₹9,999</div>
-                <div className="course-price-sub">₹18,000 Regular Price</div>
+                <div className="course-price">₹****</div>
+                <div className="course-price-sub">₹50,000 Regular Price</div>
                 <Link href="#contact" className="card-enroll-btn">Enroll Now — Limited Seats</Link>
                 <Link href="#contact" className="card-demo-btn">Book a Free Demo Class</Link>
               </div>

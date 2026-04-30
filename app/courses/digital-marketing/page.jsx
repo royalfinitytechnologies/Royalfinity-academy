@@ -166,8 +166,8 @@ export default function DigitalMarketingPage() {
             <div className="course-card-widget">
               <div className="course-card-top">
                 <div className="course-price-tag">Course Fee</div>
-                <div className="course-price">₹15,999</div>
-                <div className="course-price-sub">₹30,000 Regular Price</div>
+                <div className="course-price">₹****</div>
+                <div className="course-price-sub">₹50,000 Regular Price</div>
                 <Link href="#contact" className="card-enroll-btn">Enroll Now — Limited Seats</Link>
                 <Link href="#contact" className="card-demo-btn">Book a Free Demo Class</Link>
               </div>

@@ -41,16 +41,16 @@ export default function Contact() {
   };
 
   const contactCards = [
-    { icon: '📞', label: 'Phone',     value: '+91 99999 99999',       sub: 'Mon–Sat, 9am – 7pm',                      href: 'tel:+919999999999' },
-    { icon: '✉️', label: 'Email',     value: 'hello@royalfinity.com', sub: 'We reply within 3–4 hours',               href: 'mailto:hello@royalfinity.com' },
-    { icon: '💬', label: 'WhatsApp',  value: 'Chat with an Advisor',  sub: 'Instant responses during working hours',   href: 'https://wa.me/919999999999' },
+    { icon: '📞', label: 'Phone',     value: '+91 92118 16999',       sub: 'Mon–Sat, 9am – 7pm',                      href: 'tel:+919211816999' },
+    { icon: '✉️', label: 'Email',     value: 'info@royalfinityacademy.com', sub: 'We reply within 3–4 hours',               href: 'mailto:info@royalfinityacademy.com' },
+    { icon: '💬', label: 'WhatsApp',  value: 'Chat with an Advisor',  sub: 'Instant responses during working hours',   href: 'https://wa.me/919211816999' },
   ];
 
   const quickLinks = [
-    { href: '/php-stack',             icon: '🛠️', name: 'PHP Full Stack',         detail: 'View course details & syllabus' },
-    { href: '/mern-stack',            icon: '⚛️', name: 'MERN Stack',             detail: 'View course details & syllabus' },
-    { href: '/digital-marketing',     icon: '📢', name: 'Digital Marketing',       detail: 'View course details & syllabus' },
-    { href: '/performance-marketing', icon: '📈', name: 'Performance Marketing',   detail: 'View course details & syllabus' },
+    { href: '/courses/php-stack',             icon: '🛠️', name: 'PHP Full Stack',         detail: 'View course details & syllabus' },
+    { href: '/courses/mern-stack',            icon: '⚛️', name: 'MERN Stack',             detail: 'View course details & syllabus' },
+    { href: '/courses/digital-marketing',     icon: '📢', name: 'Digital Marketing',       detail: 'View course details & syllabus' },
+    { href: '/courses/performance-marketing', icon: '📈', name: 'Performance Marketing',   detail: 'View course details & syllabus' },
   ];
 
   return (
@@ -103,16 +103,15 @@ export default function Contact() {
               <div className="ct-card-icon">📍</div>
               <div>
                 <div className="ct-card-label">Address</div>
-                <div className="ct-card-value">Royalfinity Academy, Ahmedabad</div>
-                <div className="ct-card-sub">Gujarat, India — Campus details on inquiry</div>
+                <div className="ct-card-value">Royalfinity Academy,   Faridabad</div>
+                <div className="ct-card-sub">Haryana, India — Campus details on inquiry</div>
               </div>
             </div>
 
             <div className="ct-hours">
               <div className="ct-hours-label">Working Hours</div>
-              <div className="ct-hours-row"><span>Monday – Friday</span><strong>9:00 AM – 7:00 PM</strong></div>
-              <div className="ct-hours-row"><span>Saturday</span><strong>9:00 AM – 5:00 PM</strong></div>
-              <div className="ct-hours-row"><span>Sunday</span><strong>Closed</strong></div>
+              <div className="ct-hours-row"><span>Monday – Friday</span><strong>10:00 AM – 7:00 PM</strong></div>
+              <div className="ct-hours-row"><span>Saturday - Sunday</span><strong>Closed</strong></div>
             </div>
           </div>
 
@@ -187,7 +186,7 @@ export default function Contact() {
           </div>
           <div className="ct-map-frame ct-reveal ct-d1" ref={addRef}>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235013.56823893063!2d72.41493394063555!3d23.020158048694207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1713000000000"
+              src="https://www.google.com/maps?q=28.40565,77.3022639&hl=es;z=14&output=embed"
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
@@ -195,7 +194,7 @@ export default function Contact() {
             />
             <div className="ct-map-overlay">
               <div className="ct-map-overlay-name">Royalfinity Academy</div>
-              <div className="ct-map-overlay-addr">Ahmedabad, Gujarat, India</div>
+              <div className="ct-map-overlay-addr">5A/81, 1st Floor, NIT-5, Faridabad, Haryana - 121001</div>
             </div>
           </div>
         </div>
@@ -222,7 +221,7 @@ export default function Contact() {
               </Link>
             ))}
           </div>
-          <a href="https://wa.me/919999999999" target="_blank" rel="noreferrer" className="ct-quick-cta">
+          <a href="https://wa.me/919211816999" target="_blank" rel="noreferrer" className="ct-quick-cta">
             💬 WhatsApp Us Now
           </a>
         </div>

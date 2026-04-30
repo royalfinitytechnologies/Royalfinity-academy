@@ -17,7 +17,7 @@ export default function AboutPage() {
             <span>/</span>
             About Us
           </div>
-          <div className="hero-badge" style={{ animation: 'fadeDown 0.7s ease both' }}>Est. 2022 — Ahmedabad, India</div>
+          <div className="hero-badge" style={{ animation: 'fadeDown 0.7s ease both' }}>Est. 2026 — Faridabad, Haryana, India</div>
           <h1>
             We&apos;re Not Just an<br />
             <span className="gold">Academy. We&apos;re a</span><br />
@@ -67,15 +67,15 @@ export default function AboutPage() {
                 has a desk and a deadline.
               </p>
               <div className="story-author">
-                <div className="story-author-avatar">RF</div>
+                <div className="story-author-avatar">BG</div>
                 <div className="story-author-info">
                   <strong>Founder, Royalfinity Academy</strong>
-                  <span>Ahmedabad, Gujarat</span>
+                  <span>Faridabad, Haryana</span>
                 </div>
               </div>
             </div>
             <div className="story-floating-badge">
-              <div className="sfb-num">2022</div>
+              <div className="sfb-num">2025</div>
               <div className="sfb-text">Year We Started</div>
             </div>
           </div>
@@ -92,10 +92,10 @@ export default function AboutPage() {
             </p>
             <div className="story-milestones reveal">
               {[
-                { year: '2022 — Founded', desc: 'Royalfinity Academy opens its first campus in Ahmedabad with a vision to bridge education and industry reality.' },
-                { year: '2023 — Expanded', desc: 'Launched MERN Stack and Digital Marketing courses. Crossed 200+ trained students within the first year.' },
-                { year: '2024 — Premium Tools Program', desc: 'Introduced free access to Canva Pro, ChatGPT Plus, Adobe Suite, and 7 more industry tools for all students.' },
-                { year: '2025 — 500+ Alumni', desc: 'Our alumni network spans companies across Gujarat and beyond. 96% placement rate, and growing.' },
+                { year: '2025 — Founded', desc: 'Royalfinity Academy opens its first campus in Faridabad with a vision to bridge education and industry reality.' },
+                { year: '2026 — Expanded', desc: 'Launched MERN Stack and Digital Marketing courses. Crossed 200+ trained students within the first year.' },
+                { year: '2026 — Premium Tools Program', desc: 'Introduced free access to Canva Pro, ChatGPT Plus, Adobe Suite, and 7 more industry tools for all students.' },
+                { year: '2026 — 500+ Alumni', desc: 'Our alumni network spans companies across Haryana and beyond. 100% placement rate, and growing.' },
               ].map((m) => (
                 <div key={m.year} className="milestone">
                   <div className="milestone-year">{m.year}</div>
@@ -159,28 +159,16 @@ export default function AboutPage() {
         <div className="team-grid">
           {[
             {
-              initials: 'RM', name: 'Raj Mehta', role: 'Founder & Lead Mentor',
-              desc: '8+ years in full-stack development. Former engineer at a top Ahmedabad product startup. Built Royalfinity to give students what he wished he had at the start.',
-              skills: ['PHP', 'React', 'Product Strategy'],
+              initials: 'BG', name: 'Bhumika Gandhi', role: 'Founder & Lead Mentor',
+              desc: '6+ years in Digital Marketing. Built Royalfinity to give students what he wished he had at the start.',
+              skills: ['SEO', 'ADS', 'MARKETING'],
               delay: 'reveal-delay-1',
             },
             {
-              initials: 'SP', name: 'Sneha Patel', role: 'Digital Marketing Head',
-              desc: '6 years managing campaigns for brands with ₹50L+ monthly ad spends. Brings live campaign experience directly into every classroom session.',
-              skills: ['Meta Ads', 'Google Ads', 'SEO'],
+              initials: 'LS', name: 'Lavish Sachdeva', role: 'Co-Founder & Developer',
+              desc: '4+ years in Website Development. Built Royalfinity to give Students what he wished he had at the start.',
+              skills: ['NEXT.JS', 'REACT.JS', 'PHP'],
               delay: 'reveal-delay-2',
-            },
-            {
-              initials: 'VK', name: 'Vikas Kapoor', role: 'MERN Stack Instructor',
-              desc: 'Former CTO of a SaaS startup with 5 years of production-level Node.js and React experience. Makes complex concepts feel obvious.',
-              skills: ['MongoDB', 'Node.js', 'System Design'],
-              delay: 'reveal-delay-3',
-            },
-            {
-              initials: 'AA', name: 'Anika Arora', role: 'Performance Marketing Lead',
-              desc: 'Specialist in data-driven advertising and conversion rate optimisation. Managed performance budgets for e-commerce brands across India.',
-              skills: ['Google Analytics 4', 'A/B Testing', 'Looker Studio'],
-              delay: 'reveal-delay-4',
             },
           ].map((member) => (
             <div key={member.name} className={`team-card reveal ${member.delay}`}>

@@ -12,7 +12,7 @@ export default function HomePage() {
         <div className="hero-bg" />
         <div className="hero-grid" />
         <div className="hero-content">
-          <div className="hero-badge">Now Enrolling — Batch 2025</div>
+          <div className="hero-badge">Now Enrolling — Batch 2026</div>
           <h1>
             Learn Skills.<br />
             <span className="gold">Use Premium Tools.</span><br />
@@ -45,7 +45,7 @@ export default function HomePage() {
             { num: '500+', label: 'Students Trained' },
             { num: '10+', label: 'Premium Tools Free' },
             { num: '4', label: 'Expert Courses' },
-            { num: '96%', label: 'Placement Rate' },
+            { num: '100%', label: 'Placement Rate' },
             { num: '100%', label: 'Hands-On Projects' },
           ].map((s, i) => (
             <div key={s.label} style={{ display: 'contents' }}>
@@ -151,7 +151,7 @@ export default function HomePage() {
               <div className="course-tools">
                 {course.tools.map((t) => <span key={t} className="tool-tag">{t}</span>)}
               </div>
-              <Link href="#cta-final" className="course-cta">Explore Program</Link>
+              <Link href="/courses/php-stack" className="course-cta">Explore Program</Link>
             </div>
           ))}
         </div>
@@ -274,10 +274,10 @@ export default function HomePage() {
             and an environment designed for success.
           </p>
           <div style={{ display: 'flex', justifyContent: 'center', gap: '1rem', flexWrap: 'wrap' }} className="reveal">
-            <a href="tel:+91XXXXXXXXXX" className="btn-primary" style={{ fontSize: '0.9rem', padding: '1rem 2.8rem' }}>
+            <a href="tel:+919211816999" className="btn-primary" style={{ fontSize: '0.9rem', padding: '1rem 2.8rem' }}>
               Join Royalfinity Academy
             </a>
-            <a href="mailto:hello@royalfinity.com" className="btn-ghost" style={{ fontSize: '0.9rem', padding: '1rem 2.2rem' }}>
+            <a href="mailto:info@royalfinityacademy.com" className="btn-ghost" style={{ fontSize: '0.9rem', padding: '1rem 2.2rem' }}>
               Talk to an Advisor
             </a>
           </div>

@@ -13,20 +13,20 @@ export default function Footer() {
             environment can change the trajectory of any career.
           </p>
           <div className="social-links">
-            <a href="#" className="social-link" aria-label="Instagram">IG</a>
-            <a href="#" className="social-link" aria-label="LinkedIn">LI</a>
-            <a href="#" className="social-link" aria-label="YouTube">YT</a>
-            <a href="#" className="social-link" aria-label="Twitter">X</a>
+            <a href="https://www.instagram.com/royalfinityacademy" className="social-link" aria-label="Instagram">IG</a>
+            <a href="https://www.linkedin.com/company/royalfinity-academy/" className="social-link" aria-label="LinkedIn">LI</a>
+            <a href="https://www.facebook.com/profile.php?id=61578399720655" className="social-link" aria-label="Facebook">FB</a>
+            <a href="https://wa.me/+919211816999" className="social-link" aria-label="WhatsApp">WA</a>
           </div>
         </div>
 
         <div className="footer-col">
           <h4>Programs</h4>
           <ul>
-            <li><Link href="/#courses">PHP Full Stack</Link></li>
-            <li><Link href="/#courses">MERN Stack</Link></li>
-            <li><Link href="/#courses">Digital Marketing</Link></li>
-            <li><Link href="/#courses">Performance Marketing</Link></li>
+            <li><Link href="/courses/php-stack">PHP Full Stack</Link></li>
+            <li><Link href="/courses/mern-stack">MERN Stack</Link></li>
+            <li><Link href="/courses/digital-marketing">Digital Marketing</Link></li>
+            <li><Link href="/courses/performance-marketing">Performance Marketing</Link></li>
           </ul>
         </div>
 
@@ -43,17 +43,17 @@ export default function Footer() {
         <div className="footer-col footer-contact">
           <h4>Contact</h4>
           <strong>Location</strong>
-          <p>Ahmedabad, Gujarat, India</p>
+          <p>Faridabad, Haryana, India</p>
           <strong>Email</strong>
-          <p>hello@royalfinity.com</p>
+          <p>info@royalfinityacademy.com</p>
           <strong>Phone</strong>
-          <p>+91 XXXXXXXXXX</p>
+          <p>+91 92118 16999</p>
         </div>
       </div>
 
       <div className="footer-bottom">
         <p>© {new Date().getFullYear()} Royalfinity Academy. All rights reserved.</p>
-        <span>Est. 2022 — Ahmedabad, India</span>
+        <span>Est. 2026 — Faridabad, Haryana, India</span>
       </div>
     </footer>
   )
